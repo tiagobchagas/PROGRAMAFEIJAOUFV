@@ -7,4 +7,4 @@ Pipeline for routine steps in common bean breeding program!
 
 setwd("C:\\Users\\t_ago\\OneDrive\\Área de Trabalho\\Ensaios DS\\tese")
 list.files()
-read.table("conjuntacarioca.csv",)
+read.csv("conjuntacarioca.csv",h=T,sep = ";", dec = "." )
